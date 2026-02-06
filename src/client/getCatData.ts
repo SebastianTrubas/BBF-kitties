@@ -1,3 +1,5 @@
+import catsData from '../assets/Cats.json'
+
 // ----- Layouts -----
 type dataLayout = {
     id: number;
@@ -16,10 +18,8 @@ type videoLayout = {
     videoUrl: string[];
 };
 
-// ----- Get From Local Storage -----
-const raw = localStorage.getItem("cats");
-
-const storedData = raw ? JSON.parse(raw) : {};
+// ----- Get From Json File -----
+const storedData = catsData;
 
 // ----- Export Data ----
 export const images = storedData.images ?? [];
