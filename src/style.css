@@ -137,6 +137,12 @@ h3 {
 .homeTitle {
   max-width: 100%;
 }
+#copyright {
+  position: absolute;
+  top:10px;
+  left:10px;
+  font-size: 1rem;
+}
 
 /* ------ Buttons ------ */
 .buttonBar {
