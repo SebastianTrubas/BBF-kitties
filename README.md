@@ -1,10 +1,11 @@
-If you dont feel like downloading it all and just want to checkout the site than open the link Below.
+<H2>If you dont feel like downloading it all and just want to checkout the site than open the link Below. </H2>
 
 ------ https://bbf-kitties.vercel.app ------
 
-If the site is down or doesnt work please leave an issue at this repository so that i can try and fix it ASAP ♥
+<H3>If the site is down or doesnt work please leave an issue at this repository so that i can try and fix it ASAP ♥</h3>
 
-If you do want to download it and check the code or something than these are the instructions.
+
+<h2>If you do want to download it and check the code or something than these are the instructions.</h2>
 
 Open folder -> open cmd / powershell or any other terminal and type: " npm run dev ".
 
