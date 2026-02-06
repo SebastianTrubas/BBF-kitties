@@ -6,7 +6,7 @@ import { ref, computed } from 'vue'
 
 // ------- Change Components -------
 let currentComponent = ref("");
-currentComponent.value = "homePage"
+currentComponent.value = "catsClipPage"
 
 function changeComponents(newComponent) {
   currentComponent.value = newComponent;
