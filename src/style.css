@@ -1,0 +1,276 @@
+/* ------ Vue Stuff ------ */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  padding-top: 0px;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/* ------ Body ------ */
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  transition: 1200ms;
+  text-shadow:
+    2px 2px 0 black,
+    /* bottom-right */ -2px 2px 0 black,
+    /* bottom-left */ 2px -2px 0 black,
+    /* top-right */ -2px -2px 0 black,
+    /* top-left */ 0 2px 0 black,
+    2px 0 0 black,
+    0 -2px 0 black,
+    -2px 0 0 black;
+}
+
+/* ------ Divs ------ */
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-height: 100%;
+  max-width: 1960px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.detailBox {
+  display: flex;
+  height: 400px;
+  width: 600px;
+  margin: 40px;
+}
+
+.detailDiv {
+  display: flex;
+  text-align: left;
+  height: 400px;
+  width: 250px;
+  margin-top: 0px;
+}
+
+.clipTitles {
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+}
+/* ------ Text Areas ----- */
+h1 {
+  font-size: 50px;
+  transition: 400ms;
+  margin-bottom: 70px;
+  text-shadow:
+    0px 0px 10px skyblue,
+    0px 0px 10px skyblue,
+    0px 0px 10px skyblue;
+}
+
+h2,
+h3 {
+  transition: 400ms;
+  text-shadow:
+    0px 0px 10px rgb(136, 56, 136),
+    0px 0px 10px rgb(136, 56, 136),
+    0px 0px 10px rgb(136, 56, 136);
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.profileName {
+  font-size: 22px;
+}
+
+.title {
+  max-width: 100%;
+}
+.W65Title {
+  max-width: 65%;
+}
+
+.homeTitle {
+  max-width: 100%;
+}
+
+/* ------ Buttons ------ */
+.buttonBar {
+  display: flex;
+  gap: 40px;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 1200ms;
+  padding: 10px;
+  font-size: x-large;
+}
+
+/* ------ Lists ------ */
+ul {
+  list-style: none;
+  height: 100%;
+  margin: 0px;
+  margin-top: 5px;
+}
+
+/* ------ Images ------ */
+.imageBox {
+  height: 500px;
+  width: 500px;
+  margin-bottom: 80px;
+}
+
+.imageScreen {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  margin-bottom: 80px;
+}
+
+#imageScreenProfile {
+  height: 350px;
+}
+
+.imageScreen img {
+  margin-right: -12px;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  border: solid 3px rgba(116, 123, 255, 0.9);
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow:
+    0px 0px 20px #747bff,
+    0px 0px 20px #747bff,
+    0px 0px 20px #747bff;
+  transition: 900ms ease;
+}
+
+.profileImg {
+  height: 350px;
+  width: 350px;
+}
+
+.fadeImage,
+.fadeVideo {
+  opacity: 0;
+}
+
+/* ------ Videos ------ */
+.videoBox {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 500px;
+  margin-bottom: 60px;
+  border-radius: 20px;
+  align-items: center;
+}
+.videoScreen {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 310px;
+  background-color: #747bff;
+  border-radius: 20px;
+  box-shadow:
+    0px 0px 20px #747bff,
+    0px 0px 20px #747bff,
+    0px 0px 20px #747bff;
+}
+
+iframe {
+  display: block;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  transition: 900ms ease;
+  clip-path: inset(3px 1px);
+}
+/* ------ Themes ------ */
+.azure {
+  background-color: crimson;
+  color: pink;
+  box-shadow:
+    0px 0px 20px rgb(87, 175, 210),
+    0px 0px 20px rgb(87, 175, 210),
+    0px 0px 20px rgb(87, 175, 210);
+}
+
+.hex-0C0C0C {
+  background-color: crimson;
+  color: azure;
+  box-shadow:
+    0px 0px 20px red,
+    0px 0px 20px red,
+    0px 0px 20px red;
+}
+
+.hex-0E0E0E {
+  color: skyblue;
+  box-shadow:
+    0px 0px 20px skyblue,
+    0px 0px 20px skyblue,
+    0px 0px 20px skyblue;
+}
+
+/* ------ Errors ------ */
+.error {
+  max-width: 500px;
+  margin-bottom: 300px;
+  color: red;
+}
