@@ -2,7 +2,7 @@
 
 ------ https://bbf-kitties.vercel.app ------
 
-<H3>If the site is down or doesnt work please leave an issue at this repository so that i can try and fix it ASAP ♥</h3>
+<H3>If the site is down or doesnt work please leave an issue at this repository so that i can try and fix it ASAP</h3>
 
 
 <h2>If you do want to download it and check the code or something than these are the instructions.</h2>
