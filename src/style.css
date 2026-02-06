@@ -274,3 +274,102 @@ iframe {
   margin-bottom: 300px;
   color: red;
 }
+
+/* ---------------- MOBILE ---------------- */
+@media (max-width: 768px) {
+
+  #app {
+    padding: 1rem;
+  }
+
+  /* ------ Text ------ */
+  h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  h2, h3 {
+    font-size: 18px;
+  }
+
+  .profileName {
+    font-size: 18px;
+  }
+
+  /* ------ Layout ------ */
+
+  .infoBox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .detailBox {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    align-items: center;
+  }
+
+  .detailDiv {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .buttonBar {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    font-size: large;
+  }
+
+  /* ------ Images ------ */
+
+  .imageBox {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .profileImg {
+    width: 220px;
+    height: 220px;
+  }
+
+  #imageScreenProfile {
+    height: auto;
+  }
+
+  /* ------ Videos ------ */
+
+  .videoBox {
+    width: 100%;
+    height: auto;
+  }
+
+  .videoScreen {
+    width: 100%;
+    height: 400px;
+  }
+
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+
+  /* ------ Errors ------ */
+  .error {
+    max-width: 90%;
+    margin-bottom: 150px;
+  }
+}
