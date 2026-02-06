@@ -364,14 +364,14 @@ iframe {
   }
 
   .videoScreen {
-    width: 80%;
+    width: 310px;
     height: 400px;
   }
 
   iframe {
     height: 100%;
     width: 80%;
-    clip-path: inset(30px 1px);
+    clip-path: inset(3px 1px);
   }
 
   /* ------ Errors ------ */
