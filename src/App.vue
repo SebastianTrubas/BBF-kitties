@@ -1,5 +1,5 @@
 <script setup lang="js">
-import HomePage from "./components/home-page.vue";
+import HomePage from "./components/Home-Page.vue";
 import CatsPage from "./components/Cats-Page.vue";
 import CatClips from "./components/catclip-page.vue";
 import { ref, computed } from 'vue'
