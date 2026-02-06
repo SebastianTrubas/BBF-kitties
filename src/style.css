@@ -371,7 +371,6 @@ iframe {
   iframe {
     height: 100%;
     width: 100%;
-    clip-path: inset(30px, 3px);
   }
 
   /* ------ Errors ------ */
