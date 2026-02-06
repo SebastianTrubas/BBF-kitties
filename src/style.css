@@ -363,6 +363,16 @@ iframe {
     height: auto;
   }
 
+  .videoScreen {
+    width: 310px;
+    height: 400px;
+  }
+
+  iframe {
+    height: 100%;
+    width: 100%;
+    clip-path: inset(3px 1px);
+  }
 
   /* ------ Errors ------ */
   .error {
