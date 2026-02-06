@@ -303,7 +303,7 @@ iframe {
   align-items: center;
 }
 
-  /* ------ Layout ------ */
+  /* ------ Divs ------ */
 
   .infoBox {
     flex-direction: column;
@@ -326,7 +326,7 @@ iframe {
 
   .buttonBar {
     flex-direction: column;
-    gap: 15px;
+    gap: 30px;
     width: 100%;
   }
 
