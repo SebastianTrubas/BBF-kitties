@@ -296,6 +296,13 @@ iframe {
     font-size: 18px;
   }
 
+  .clipTitles {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: center;
+}
+
   /* ------ Layout ------ */
 
   .infoBox {
