@@ -28,7 +28,11 @@ const currentColorClass = computed(() => {
 
 <template>
   <div class="main">
+<<<<<<< HEAD
     <p id="copyright">
+=======
+    <p :class="currentColorClass" id="copyright">
+>>>>>>> c061a9f70d7d1ed194e0464284852f5d15f40572
       Sebastian Trubas©, Swiperism Studios © 
     </p>
     <HomePage v-if="currentComponent == 'homePage'" @changeComponent="changeComponents" @changeTheme="changeTheme"
